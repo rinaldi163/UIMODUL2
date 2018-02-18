@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.toshiba.rinaldi_1106130092_modul2.pilihmenu">
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/images"
+        android:layout_width="150dp"
+        android:layout_height="150dp" />
+    <TextView
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="Pilih Menu :"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/dn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dinner In" />
+        <RadioButton
+            android:id="@+id/ta"
+            android:text="Take Away"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+    <Button
+        android:onClick="masukindata"
+        android:layout_gravity="center_horizontal"
+        android:text="PESAN SEKARANG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+

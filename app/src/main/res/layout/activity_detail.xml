@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.toshiba.rinaldi_1106130092_modul2.Detail">
+
+    <ImageView
+        android:id="@+id/detail_gambar"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="150dp"
+        android:layout_height="150dp" />
+    <TextView
+        android:gravity="center_horizontal"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:id="@+id/detail_nama"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:gravity="center_horizontal"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:id="@+id/detail_harga"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:text="Komposisi"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:gravity="center_horizontal"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:id="@+id/detail_komposisi"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

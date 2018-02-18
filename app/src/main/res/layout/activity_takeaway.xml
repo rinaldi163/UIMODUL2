@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.toshiba.rinaldi_1106130092_modul2.takeaway">
+    <TextView
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:gravity="center"
+        android:text="Identitas Pemesan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/input_nama"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:hint="Nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/input_hape"
+        android:layout_margin="10dp"
+        android:inputType="number"
+        android:gravity="center"
+        android:hint="Nomor Telepon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/input_alamat"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:hint="Alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/input_catatan"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:hint="Catatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:onClick="lihatinmenu"
+        android:layout_gravity="center_horizontal"
+        android:text="Pilih pesanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
